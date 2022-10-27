@@ -1,0 +1,299 @@
+/* PC */
+@media (min-width: 1024px) {}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    /* Body */
+    #wrapper {
+        width: 100%;
+    }
+
+    /* Header */
+    #header {
+        position: sticky;
+        width: 100%;
+        height: 60px;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #2A2C31;
+    }
+
+    .header__menu {
+        text-decoration: none;
+        font-size: 2.4rem;
+        line-height: 64px;
+        font-weight: 900;
+    }
+
+    .header__logo {
+        margin-top: 10px;
+        margin-left: -175px;
+    }
+
+    .header__functions {
+        display: flex;
+        margin-top: 10px;
+        margin-left: -83px;
+    }
+
+    .header__search-rps > a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .header__search-rps > a:hover {
+        color: #CAE962;
+    }
+
+    .header__search-rps {
+        display: block;
+        font-size: 1.6rem;
+        line-height: 60px;
+        margin-right: -160px;
+    }
+
+    .header__login {
+        margin-top: 10px;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .header__contacts {
+        display: none;
+    }
+
+    .header__functions-donate-btn {
+        display: none;
+    }
+
+    /* Slider */
+    .slider__background-style {
+        width: 100%;
+        height: 400px;
+    }
+
+    .slider__content-title {
+        font-size: 30px;
+    }
+
+    .slider__content-btn-play {
+        top: 90%;
+    }
+
+    .slider__content-btn-view {
+        top: 32%;
+    }
+
+    /* Trending */
+    #moviesTrending {
+        display: none;
+    }
+
+    /* Disscution */
+    #disscusion {
+        display: none;
+    }
+
+    /* Top Films */
+
+    .topFilms-flex {
+        flex-wrap: wrap;
+    }
+
+    .topFilms__items {
+        width: 370px;
+    }
+
+    /* Main Content */
+    .watchContent__main {
+        display: block;
+    }
+
+    .flex-movies {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+    .watchContent__main-sidebar {
+        display: none;
+    }
+
+    /* Footer */
+    .keyword li {
+        margin-right: 2px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    /* Body */
+    #wrapper {
+        width: 100%;
+    }
+
+    /* Header */
+    #header {
+        position: sticky;
+        width: 100%;
+        height: 60px;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #2A2C31;
+    }
+
+    .header__menu {
+        text-decoration: none;
+        font-size: 2.4rem;
+        line-height: 64px;
+        font-weight: 900;
+    }
+
+    .header__logo {
+        margin-top: 10px;
+        margin-left: -75px;
+    }
+
+    .header__functions {
+        display: none;
+    }
+
+    .header__search-rps > a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .header__search-rps > a:hover {
+        color: #CAE962;
+    }
+
+    .header__search-rps {
+        display: block;
+        font-size: 1.6rem;
+        line-height: 60px;
+        margin-right: -80px;
+    }
+
+    .header__login {
+        margin-top: 10px;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .header__contacts {
+        display: none;
+    }
+
+    .header__functions-donate-btn {
+        display: none;
+    }
+
+    /* Slider */
+    .slider__content {
+        width: 65%;
+    }
+
+    .slider__background-style {
+        width: 100%;
+        height: 320px;
+    }
+
+    .slider__content-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .slider__content-time {
+        display: none;
+    }
+
+    .slider__content-btn-play {
+        top: 83%;
+    }
+
+    .slider__content-btn-view {
+        display: none;
+    }
+
+    #background-rgba {
+        display: none;
+    }
+
+    /* Movies Trending */
+    #moviesTrending {
+        display: none;
+    }
+
+    /* Contact List */
+    #contactList {
+        display: none;
+    }
+
+    /* Disscution */
+    #disscusion {
+        display: none;
+    }
+
+    /* Top Films */
+
+    .topFilms-flex {
+        flex-wrap: wrap;
+    }
+
+    .topFilms__items {
+        width: 370px;
+    }
+
+    /* Main Content */
+    .watchContent__main {
+        display: block;
+    }
+
+    .flex-movies {
+        margin-left: 1px;
+    }
+
+    .watchContent__main-sidebar {
+        display: none;
+    }
+
+    /* Footer */
+    #footer {
+        padding: 0px 0 0;
+        position: relative;
+        width: auto;
+        height: 230px;
+        background: #333;
+    }
+
+    .logo-contact {
+        display: none;
+    }
+
+    .x {display: none;}
+
+    .list {
+        display: none;
+    }
+
+    .keyword {
+        display: none;
+    }
+
+    .about-contact {
+        text-align: center;
+    }
+
+    .about-desc {
+        text-align: center;
+        padding-right: 10px;
+    }
+}
